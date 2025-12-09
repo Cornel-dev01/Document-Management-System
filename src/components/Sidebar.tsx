@@ -1,4 +1,3 @@
-// Sidebar.tsx
 import React from 'react';
 
 interface SidebarProps {
@@ -10,7 +9,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <h1 className="sidebar-title">Document Management</h1>
+        <h1 className="sidebar-title">Document Management - DMS</h1>
       </div>
       <nav className="sidebar-nav">
         <button

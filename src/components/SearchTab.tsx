@@ -1,4 +1,3 @@
-// SearchTab.tsx
 import React from 'react';
 
 const SearchTab: React.FC = () => {

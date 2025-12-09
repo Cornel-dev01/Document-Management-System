@@ -1,4 +1,3 @@
-// FoldersTab.tsx
 import React from 'react';
 
 const FoldersTab: React.FC = () => {

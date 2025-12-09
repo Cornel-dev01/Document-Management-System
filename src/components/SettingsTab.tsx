@@ -1,4 +1,3 @@
-// SettingsTab.tsx
 import React from 'react';
 
 const SettingsTab: React.FC = () => {

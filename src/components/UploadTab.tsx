@@ -1,4 +1,3 @@
-// UploadTab.tsx
 import React from 'react';
 import type { UploadedFile } from '../types';
 
@@ -19,6 +18,7 @@ const UploadTab: React.FC<UploadTabProps> = ({
 }) => {
   return (
     <div className="upload-container">
+     <div className="upload-wrapper">
       <div className="upload-card">
         <h2 className="upload-title">Upload Document</h2>
         <div className="upload-dropzone">
@@ -83,6 +83,7 @@ const UploadTab: React.FC<UploadTabProps> = ({
           </div>
         )}
       </div>
+     </div>
     </div>
   );
 };

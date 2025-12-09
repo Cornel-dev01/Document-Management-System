@@ -1,4 +1,3 @@
-// MetadataModal.tsx
 import React from 'react';
 import type { DocumentMetadata } from '../types';
 
