@@ -13,4 +13,5 @@ export interface DocumentMetadata {
 export interface UploadedFile {
   file: File;
   metadata: DocumentMetadata;
+  downloadUrl?: string;
 }
